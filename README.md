@@ -1,27 +1,13 @@
-# ComponentStyles
+## 本篇筆記是來記錄 Angular 元件樣式及其原理和 探討　Angular 提供的一些特殊選擇器的用法
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+希望透過了解預設的 Angular 樣式機制（模擬封裝）在底層的工作原理來幫助我們更清楚的如何使用　Angular 所提供的一些特殊選擇器(如： :host、:host-context、::ng-deep等)的用法。
 
-## Development server
+在下面的實作過程將會使用到下列技術:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular cli 16
+- Angular 16
+    - Router
+    - Standalone component
+- CSS & SCSS
+- 瀏覧器的開發者工具
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

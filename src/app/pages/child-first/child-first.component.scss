@@ -1,0 +1,20 @@
+.childFirstContainer{
+  border: 2px solid blue;
+  padding: 10px;
+}
+:host {
+  border: 2px solid green;
+  color:chocolate;
+  display: block;
+  padding: 10px;
+}
+:host h2 {
+  font-style: italic;
+  color: blue;
+}
+:host ::ng-deep .iAmH4 {
+  border: 2px dotted blue;
+}
+:host ::ng-deep [id='1stH6'] {
+  border: 2px dotted violet;
+}
